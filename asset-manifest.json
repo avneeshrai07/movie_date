@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/movie_date/static/css/main.54a5b526.css",
+    "main.js": "/movie_date/static/js/main.1ad0557d.js",
+    "static/js/787.d5fa4d18.chunk.js": "/movie_date/static/js/787.d5fa4d18.chunk.js",
+    "static/media/bg.jpg": "/movie_date/static/media/bg.8e6a457eb3f54195f8e5.jpg",
+    "static/media/puffy-bear-love.gif": "/movie_date/static/media/puffy-bear-love.a03f0a3c574901cd81be.gif",
+    "static/media/laugh.gif": "/movie_date/static/media/laugh.5a5a25e637bee00db006.gif",
+    "static/media/peach-goma.gif": "/movie_date/static/media/peach-goma.5b545a45aff975859e47.gif",
+    "static/media/bird-cute.gif": "/movie_date/static/media/bird-cute.2ba3b67b37d1c1d13aeb.gif",
+    "index.html": "/movie_date/index.html",
+    "main.54a5b526.css.map": "/movie_date/static/css/main.54a5b526.css.map",
+    "main.1ad0557d.js.map": "/movie_date/static/js/main.1ad0557d.js.map",
+    "787.d5fa4d18.chunk.js.map": "/movie_date/static/js/787.d5fa4d18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54a5b526.css",
+    "static/js/main.1ad0557d.js"
+  ]
+}
