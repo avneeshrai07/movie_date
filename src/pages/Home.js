@@ -12,7 +12,7 @@ function Home() {
     }
 
     useEffect(() => {
-        if (username === 'HIBA') {
+        if (username === 'shreya') {
           navigate('/hiba');
         }
       }, [username, navigate]);
