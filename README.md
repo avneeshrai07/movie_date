@@ -6,5 +6,5 @@ This is a charming and creative website designed to ask your girlfriend for a mo
 
 
 ### Website URL
-https://avneeshrai07.github.io/movie_date/ 
+https://avneeshrai07.github.io/date/ 
 to view it in your browser.
