@@ -1,4 +1,4 @@
-.Hiba {
+.MovieDate {
   position: relative;
   display: flex;
   justify-content: center;
@@ -7,7 +7,7 @@
   margin: 10vw;
 }
 
-.Hiba_animation {
+.MovieDate_animation {
   position: absolute;
   top: 0;
   left: 50%;
@@ -22,21 +22,21 @@
   transition: opacity 0.3s ease;
 }
 
-.yes-animation .Hiba_animation {
+.yes-animation .MovieDate_animation {
   background-image: url('../../public/images/puffy-bear-love.gif');
 }
 
-.no-animation .Hiba_animation {
+.no-animation .MovieDate_animation {
   background-image: url('../../public/images/bird-cute.gif');
 }
 
-.wait-animation .Hiba_animation {
+.wait-animation .MovieDate_animation {
   background-image: url('../../public/images/peach-goma.gif');
 }
 
-.Hiba.yes-animation .Hiba_animation,
-.Hiba.no-animation .Hiba_animation,
-.Hiba.wait-animation .Hiba_animation {
+.MovieDate.yes-animation .MovieDate_animation,
+.MovieDate.no-animation .MovieDate_animation,
+.MovieDate.wait-animation .MovieDate_animation {
   opacity: 1;
 }
 

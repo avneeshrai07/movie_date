@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './hiba.css';
+import './movieDate.css';
 
-function Hiba() {
+function MovieDate() {
   const [userClickedYes, setUserClickedYes] = useState(false);
   const [userClickedNo, setUserClickedNo] = useState(false);
   const [displayText, setDisplayText] = useState('');
@@ -25,8 +25,8 @@ function Hiba() {
   };
 
   return (
-    <div className={`Hiba ${userClickedYes ? 'yes-animation' : userClickedNo ? 'no-animation' : 'wait-animation'}`}>
-      <div className='Hiba_animation'></div>
+    <div className={`MovieDate ${userClickedYes ? 'yes-animation' : userClickedNo ? 'no-animation' : 'wait-animation'}`}>
+      <div className='MovieDate_animation'></div>
       <div className='content'>
         <h1 className='date'>Would you like to join me for a movie sometime?</h1>
         <div className='button-container'>
@@ -43,4 +43,4 @@ function Hiba() {
   );
 }
 
-export default Hiba;
+export default MovieDate;

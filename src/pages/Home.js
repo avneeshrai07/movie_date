@@ -13,7 +13,7 @@ function Home() {
 
     useEffect(() => {
         if (username === 'HIBA') {
-          navigate('/hiba');
+          navigate('/movieDate');
         }
       }, [username, navigate]);
 
