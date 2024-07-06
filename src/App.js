@@ -3,24 +3,18 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home';
 import MovieDate from './pages/MovieDate';
+import BirthDay from './pages/BirthDay';
+import song from "./pages/birthdaySong.mp3";
 function App() {
 
   const [userData, setUserData] = useState({
-    name:'HIBA',
-    dob: null,
+    name:'Shreya',
+    dob: '06/07/2024',
     gender: 'Female',
-    heightFeet: 5,
-    heightInches: 4,
-    currentWeight: 54,
-    weightGoal: 65,
-    currentWater:0,
-    waterGoal:3000,
-    currentwaterStreak:10,
-    currentSanpStreak:25,
-    longestSanpStreak:50,
-    snapStreakGoal:75,
-    currentBmi:0,
-    currentBmiStage:'',
+
+    // copy paste any Route path name here without ("/")
+    page:'Birthday',
+    
   });
 
 
@@ -29,7 +23,8 @@ function App() {
       <Router>
         <Routes>
           <Route path="/date" element={<Home userData={userData}/>}/>
-          <Route path="/movieDate" element={<MovieDate userData={userData}/>} />
+          <Route path="/MovieDate" element={<MovieDate userData={userData}/>} />
+          <Route path="/Birthday" element={<BirthDay userData={userData}/>} />
         </Routes>
       </Router>
     </div>

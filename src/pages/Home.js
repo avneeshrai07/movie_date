@@ -2,7 +2,10 @@ import React,{useState,useEffect} from 'react';
 import { useNavigate } from 'react-router-dom';
 import './home.css'
 function Home(props) {
+
     const name = props.userData.name;
+    const page = props.userData.page;
+
     const[username,setusername] = useState('');
     const navigate = useNavigate();
     const [showAnimation, setShowAnimation] = useState(false);
@@ -14,7 +17,7 @@ function Home(props) {
 
     useEffect(() => {
         if (username === name) {
-          navigate('/movieDate');
+          navigate('/'+page);
         }
       }, [username, navigate]);
 
