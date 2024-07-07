@@ -23,15 +23,15 @@
 }
 
 .yes-animation .MovieDate_animation {
-  background-image: url('../../public/images/puffy-bear-love.gif');
+  background-image: url('../../../public/images/puffy-bear-love.gif');
 }
 
 .no-animation .MovieDate_animation {
-  background-image: url('../../public/images/bird-cute.gif');
+  background-image: url('../../../public/images/bird-cute.gif');
 }
 
 .wait-animation .MovieDate_animation {
-  background-image: url('../../public/images/peach-goma.gif');
+  background-image: url('../../../public/images/peach-goma.gif');
 }
 
 .MovieDate.yes-animation .MovieDate_animation,

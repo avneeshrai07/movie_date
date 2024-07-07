@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './movieDate.css';
+import './CSS/movieDate.css';
 
 function MovieDate() {
   const [userClickedYes, setUserClickedYes] = useState(false);

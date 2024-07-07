@@ -1,5 +1,5 @@
 body {
-    background-image: url('../../public/images/bg.jpg');
+    background-image: url('../../../public/images/bg.jpg');
     background-size: cover;
     margin: 0;
     display: flex;
@@ -16,7 +16,7 @@ body {
     transform: translateX(-50%);
     width: 50vw;
     height: 50vh;
-    background-image: url('../../public/images/laugh.gif');
+    background-image: url('../../../public/images/laugh.gif');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

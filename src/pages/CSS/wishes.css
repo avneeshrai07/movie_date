@@ -7,8 +7,9 @@ body {
   
   .landing-page {
     position: relative;
-    background: url('../../public/images/bg1.jpg') no-repeat center center/cover;
-    height: 100vh;
+    background: url('../../../public/images/bg1.jpg') no-repeat center center/cover;
+    /* margin-top: -30vh; */
+    height:150vh;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -16,17 +17,69 @@ body {
     overflow: hidden;
     transition: background 2s ease-in-out;
   }
-  
+
   .landing-page.clicked {
-    background: url('../../public/images/bg2.jpg') no-repeat center center/cover;
+    background: url('../../../public/images/bg2.jpg') no-repeat center center/cover;
   }
-  
+
   .img1 {
     width: 300px;
     height: 300px;
-    background: url('../../public/images/heart.png') no-repeat center center/cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: url('../../../public/images/heart.png') no-repeat center center/cover;
     transition: transform 2s, opacity 2s;
   }
+  
+  .WishText {
+    width: 100vw; /* Adjust width as needed */
+    height: 100vh;
+    bottom: -40vh;
+    max-width: 800px; /* Maximum width for larger screens */
+    font-size: 1em; /* Adjust font size */
+    text-align: center; /* Center align the text */
+    /* color: gold; */
+    /* text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000; */
+    color: #fff6a9;
+    text-shadow: 0 0 5px #ffa500, 
+             0 0 5px #ffa500, 
+             0 0 5px #ffa500, 
+             0 0 14px #ffa500, 
+             0 0 10px #ff0000, 
+             0 0 10px #ff8d00, 
+             0 0 10px #ff0000
+             ;
+
+    position:absolute;
+    font-family: "Sacramento", cursive;
+  text-align: center;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    margin: 0 auto; /* Centers the text */
+  }
+  
+  .WishText {
+    display: inline-block; /* Ensures each word animates separately */
+    overflow: hidden; /* Ensures each word is revealed with typing animation */
+    animation: 
+      typing 3s steps(40, end), /* Adjust duration and steps as needed */
+      blink-caret .75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+  
+  
   .landing-page.clicked .img1 {
     transform: scale(2);
     opacity: 0;

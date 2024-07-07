@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import { useNavigate } from 'react-router-dom';
-import './home.css'
+import './CSS/home.css'
 function Home(props) {
 
     const name = props.userData.name;
