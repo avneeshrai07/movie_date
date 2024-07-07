@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/date/static/css/main.0ed6f143.css",
-    "main.js": "/date/static/js/main.c160dd21.js",
+    "main.css": "/date/static/css/main.61f9906b.css",
+    "main.js": "/date/static/js/main.07eb1ff6.js",
     "static/js/787.d5fa4d18.chunk.js": "/date/static/js/787.d5fa4d18.chunk.js",
     "static/media/birthdaySong.mp3": "/date/static/media/birthdaySong.cba3cbcd8e28e14c31d2.mp3",
-    "static/media/bg2.jpg": "/date/static/media/bg2.218926b45573d7743aed.jpg",
     "static/media/bg1.jpg": "/date/static/media/bg1.b3867adba7854de889d9.jpg",
     "static/media/bg.jpg": "/date/static/media/bg.8e6a457eb3f54195f8e5.jpg",
     "static/media/puffy-bear-love.gif": "/date/static/media/puffy-bear-love.a03f0a3c574901cd81be.gif",
@@ -12,13 +11,14 @@
     "static/media/peach-goma.gif": "/date/static/media/peach-goma.5b545a45aff975859e47.gif",
     "static/media/bird-cute.gif": "/date/static/media/bird-cute.2ba3b67b37d1c1d13aeb.gif",
     "static/media/heart.png": "/date/static/media/heart.0853908963a76a67bc03.png",
+    "static/media/happy-birthday.png": "/date/static/media/happy-birthday.bffa2100dce02e50cd3c.png",
     "index.html": "/date/index.html",
-    "main.0ed6f143.css.map": "/date/static/css/main.0ed6f143.css.map",
-    "main.c160dd21.js.map": "/date/static/js/main.c160dd21.js.map",
+    "main.61f9906b.css.map": "/date/static/css/main.61f9906b.css.map",
+    "main.07eb1ff6.js.map": "/date/static/js/main.07eb1ff6.js.map",
     "787.d5fa4d18.chunk.js.map": "/date/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ed6f143.css",
-    "static/js/main.c160dd21.js"
+    "static/css/main.61f9906b.css",
+    "static/js/main.07eb1ff6.js"
   ]
 }
